@@ -9,6 +9,9 @@
    <link rel = "shortcut icon" href = "favicon.ico" type = "image/x-ico" />
    <link rel = "icon" href = "favicon.ico" type = "image/x-ico" />
 
+   <style>
+    .form {border-color: black;}
+   </style>
  </head>
  
  <body>
@@ -22,8 +25,8 @@
  <hr>
  
 <h3>Feedback Form</h3>
- <form method = "get" action = mailto: notmyemail@hotmail.com>
-  <fieldset>
+ <form method = "get" action = mailto: lbartran@gmail.com>
+  <fieldset class = "form">
     <legend>
 	 Your Input
 	</legend>
@@ -44,7 +47,7 @@
 	   Arts and Entertainment
 	   </label>
 	   <label>
-	   <input type = "radio" id = "h" name = "materilPrefernce" value = "History">
+	   <input type = "radio" id = "h" name = "materialPrefernce" value = "History">
 	   History
 	   </label>
 	   <label>
@@ -59,17 +62,20 @@
 	   <input type = "radio" id = "wc" name = "materialPreference" value = "Wild Card">
 	   Wild Card
 	   </label>
+	   <br><br>
 	   <label>
 	   <input type = "text" id = "suggestion" name = "materialPreference" value = "Suggest a category">
 	   </label>
+	   <br><br>
 	   <label>
 	   <input type = "checkbox" id = "interestLevel" name = "interest" value = "yes">
 	   I find the content interesting
 	   </label>
 	 </p>
+	 
   </fieldset>
   <br>
-   <fieldset>
+   <fieldset class = "form">
     <legend>
 	 Thoughts about the site
 	</legend>
@@ -91,23 +97,14 @@
 	 <br>
 	 <textarea name = "comment" id = "comment" cols = "75" rows = "7"></textarea>
 	</p>
+	
    </fieldset>
-   <p>
-   <input type = "submit" value = "Submit">
-   </p>
- </form>
+    
+    <input type = "submit" value = "Submit"> 
+    <input type = "reset" value = "Clear">
+	
+   </form>
 
- 
-  <footer>
-  <br>
-  <ul id = "sprite">
-   <li><a href = "" class = "fb"></a></li>
-   <li><a href = "" class = "in"></a></li>
-   <li><a href = "" class + "tw"></a></li>
-  </ul>
-  
-  </footer>
-  
- </body>
+  </body>
 
  </html>
